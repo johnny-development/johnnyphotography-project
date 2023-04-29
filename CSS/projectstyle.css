@@ -8,10 +8,10 @@ html {
     -moz-background: #333 0%;
     -webkit-background: #333 0%;
     -o-background: #333 0%; */
-  background-image: url(/greysquare.svg);
-  -moz-background-image: url(/greysquare.svg);
-  -webkit-background-image: url(/greysquare.svg);
-  -o-background-image: url(/greysquare.svg);
+  background-image: url(/bgimages/new-bg-square3.svg);
+  -moz-background-image: url(/bgimages/new-bg-square3.svg);
+  -webkit-background-image: url(/bgimages/new-bg-square3.svg);
+  -o-background-image: url(/bgimages/new-bg-square3.svg);
   min-height: 100vh;
   max-width: 100%;
   padding-bottom: 10px;
@@ -280,7 +280,7 @@ h1 {
   font-family: "Great Vibes";
   text-align: left;
   font-size: 1.8rem;
-  text-shadow: 3px 3px 2px rgb(88, 78, 78);
+  /* text-shadow: 3px 3px 2px rgb(88, 78, 78); */
   color: rgb(243, 168, 6);
 }
 
@@ -294,7 +294,7 @@ h1 {
 .button {
   width: 120px;
   max-width: 120px;
-  box-shadow: 0px 8px 10px -5px #8d5252;
+  /* box-shadow: 0px 8px 5px -5px #8d5252; */
   background-color: transparent;
   /* background-color: rgba(255, 174, 0, 0.037); */
   background-color: rgba(0, 0, 0, 0.131);
@@ -322,7 +322,7 @@ h1 {
 .button-close {
   width: 100%;
   max-width: 50px;
-  box-shadow: 0px 8px 10px -5px #8d5252;
+  /* box-shadow: 0px 8px 10px -5px #8d5252; */
   background-color: transparent;
   background-color: rgba(0, 0, 0, 0.131);
   border: 1px solid #a55c1b;
@@ -370,7 +370,7 @@ iframe {
   border-top: 1px solid #b25106;
   border-bottom: 1px solid #b25106;
   border-radius: 10px;
-  box-shadow: 0px 8px 13px -5px #8d5252;
+  /* box-shadow: 0px 6px 11px -8px #8d5252; */
   justify-items: center;
   align-self: center;
   justify-content: center;
@@ -392,9 +392,9 @@ main {
   flex-basis: 150px;
   margin: 8px;
   /* padding: 3px; */
-  box-shadow: 0px 8px 10px -5px #8d5252;
+  /* box-shadow: 0px 8px 10px -5px #8d5252;
   -moz-box-shadow: 0px 8px 10px -5px #8d5252;
-  -webkit-box-shadow: 0px 8px 10px -5px #8d5252;
+  -webkit-box-shadow: 0px 8px 10px -5px #8d5252; */
 }
 
 .img:hover {
