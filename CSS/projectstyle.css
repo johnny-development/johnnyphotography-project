@@ -201,7 +201,8 @@ a {
     border-radius: 10px;
     /* border: 3px solid rgba(65, 62, 62, 0.081); */
     /* border: 2px solid rgba(201, 195, 195, 0.081); */
-    box-shadow: #b77656b6 0px 2px 5px 1px;
+    /* box-shadow: #b77656b6 0px 1px 1px 1px; */
+    box-shadow: #a55c1b 0px 1px 1px 1px;
 
     /* box-shadow: #776868ae 0px 5px 6px 0px; */
     /* box-shadow: #070707 0px 3px 2px 0px; */
