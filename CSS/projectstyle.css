@@ -237,7 +237,7 @@ h1 {
   font-family: "Great Vibes";
   text-align: left;
   font-size: 1.8rem;
-  text-shadow: 0px 5px 5px 0px #000000;
+  text-shadow: 3px 3px 2px rgb(0, 0, 0);
   color: rgb(243, 168, 6);
 }
 
@@ -369,9 +369,12 @@ img {
 
 .full-image {
   display: block;
-  margin: 0px auto;
+  margin: 0px 1px;
   flex-basis: 500px;
   margin-top: 15px;
+  box-shadow: 0px 5px 5px 0px #000000;
+  -moz-box-shadow: 0px 5px 5px 0px #000000;
+  -webkit-box-shadow: 0px 5px 5px 0px #000000;
 }
 
 .prev-next {
@@ -383,14 +386,14 @@ img {
   color: rgb(243, 168, 6);
   text-align: center;
   font-size: 2.2rem;
-  text-shadow: 0px 5px 5px 0px #000000;
+  text-shadow: 3px 3px 2px rgb(0, 0, 0);
 }
 
 .paging-sep {
   color: rgba(92, 99, 112, 0.5);
   text-align: center;
   font-size: 1.3rem;
-  text-shadow: 0px 5px 5px 0px #000000;
+  text-shadow: 3px 3px 2px rgb(0, 0, 0);
   bottom: -10px;
   margin-right: 3px;
   margin-left: 3px;
@@ -401,7 +404,7 @@ img {
   max-width: 180px;
   text-align: center;
   font-size: 1.5rem;
-  text-shadow: 0px 5px 5px 0px #000000;
+  text-shadow: 3px 3px 2px rgb(0, 0, 0);
   color: red;
   text-decoration: none;
   padding-top: 10px;
@@ -412,14 +415,14 @@ img {
   max-width: 180px;
   text-align: center;
   font-size: 1.5rem;
-  text-shadow: 0px 5px 5px 0px #000000;
+  text-shadow: 3px 3px 2px rgb(0, 0, 0);
   color: red;
   text-decoration: none;
 }
 
 footer {
   text-align: center;
-  text-shadow: 0px 5px 5px 0px #000000;
+  text-shadow: 3px 3px 2px rgb(0, 0, 0);
   color: rgb(243, 168, 6);
   font-size: 0.75rem;
 }
@@ -439,7 +442,7 @@ footer {
 h2 {
   text-align: center;
   font-size: 1.5rem;
-  text-shadow: 0px 5px 5px 0px #000000;
+  text-shadow: 3px 3px 2px rgb(0, 0, 0);
   color: rgb(243, 168, 6);
 }
 
