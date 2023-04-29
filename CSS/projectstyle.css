@@ -69,10 +69,10 @@ body {
   top: 0; */
   width: 100%;
   height: 50px;
-
+  background-color: rgba(1, 4, 12, 0.948);
   /* min-height: 40px; */
   /* background-color: rgba(158, 96, 35, 0.464); */
-  background-color: rgba(1, 16, 25, 0.902);
+  /* background-color: rgba(1, 16, 25, 0.902); */
   /* background-color: rgba(1, 16, 25, 0.757); */
   /* background-color: rgba(9, 50, 77, 0.757); */
 }
@@ -186,8 +186,9 @@ a {
     top: 50px;
     gap: 0;
     flex-direction: column;
+    background-color: rgba(1, 4, 12, 0.948);
     /* background-color: rgba(158, 96, 35); */
-    background-color: rgba(1, 16, 25, 0.902);
+    /* background-color: rgba(1, 16, 25, 0.902); */
     /* background-color: rgba(1, 16, 25, 0.757); */
     /* background-color: rgba(9, 50, 77, 0.757); */
     /* background-color: rgba(11, 6, 0, 0.884); */
@@ -280,6 +281,7 @@ h1 {
   font-family: "Great Vibes";
   text-align: left;
   font-size: 1.8rem;
+  text-shadow: 0px 5px 5px 0px #000000;
   /* text-shadow: 3px 3px 2px rgb(88, 78, 78); */
   color: rgb(243, 168, 6);
 }
@@ -300,6 +302,9 @@ h1 {
   background-color: rgba(0, 0, 0, 0.131);
   border: 1px solid #a55c1b;
   color: rgb(243, 168, 6);
+  box-shadow: 0px 5px 5px 0px #000000;
+  -moz-box-shadow: 0px 5px 5px 0px #000000;
+  -webkit-box-shadow: 0px 5px 5px 0px #000000;
   padding: 5px 10px;
   margin: 5px;
   text-align: end;
@@ -327,6 +332,9 @@ h1 {
   background-color: rgba(0, 0, 0, 0.131);
   border: 1px solid #a55c1b;
   color: rgb(243, 168, 6);
+  box-shadow: 0px 5px 5px 0px #000000;
+  -moz-box-shadow: 0px 5px 5px 0px #000000;
+  -webkit-box-shadow: 0px 5px 5px 0px #000000;
   padding: 5px 10px;
   margin: 5px;
   text-align: center;
@@ -370,6 +378,9 @@ iframe {
   border-top: 1px solid #b25106;
   border-bottom: 1px solid #b25106;
   border-radius: 10px;
+  box-shadow: 0px 5px 5px 0px #000000;
+  -moz-box-shadow: 0px 5px 5px 0px #000000;
+  -webkit-box-shadow: 0px 5px 5px 0px #000000;
   /* box-shadow: 0px 6px 11px -8px #8d5252; */
   justify-items: center;
   align-self: center;
@@ -391,6 +402,9 @@ main {
   border-radius: 12px;
   flex-basis: 150px;
   margin: 8px;
+  box-shadow: 0px 5px 5px 0px #000000;
+  -moz-box-shadow: 0px 5px 5px 0px #000000;
+  -webkit-box-shadow: 0px 5px 5px 0px #000000;
   /* padding: 3px; */
   /* box-shadow: 0px 8px 10px -5px #8d5252;
   -moz-box-shadow: 0px 8px 10px -5px #8d5252;
@@ -438,7 +452,7 @@ img {
   /* font-family: 'Great Vibes'; */
   text-align: center;
   font-size: 2.2rem;
-  text-shadow: 3px 3px 2px rgb(66, 48, 8);
+  /* text-shadow: 3px 3px 2px rgb(66, 48, 8); */
 }
 
 .paging-sep {
@@ -446,7 +460,7 @@ img {
   /* font-family: 'Great Vibes'; */
   text-align: center;
   font-size: 1.3rem;
-  text-shadow: 3px 3px 2px rgb(66, 48, 8);
+  /* text-shadow: 3px 3px 2px rgb(66, 48, 8); */
   /* position: relative; */
   bottom: -10px;
   margin-right: 3px;
@@ -459,7 +473,7 @@ img {
   /* font-family: 'Great Vibes'; */
   text-align: center;
   font-size: 1.5rem;
-  text-shadow: 3px 3px 2px rgb(88, 78, 78);
+  /* text-shadow: 3px 3px 2px rgb(88, 78, 78); */
   color: red;
   text-decoration: none;
   padding-top: 10px;
@@ -471,6 +485,7 @@ img {
   /* font-family: 'Great Vibes'; */
   text-align: center;
   font-size: 1.5rem;
+  /* text-shadow: 3px 3px 2px rgb(66, 48, 8); */
   /* text-shadow: 3px 3px 2px rgb(88, 78, 78); */
   color: red;
   text-decoration: none;
@@ -526,7 +541,7 @@ textarea {
   width: 30%;
   height: 40px;
   max-width: 130px;
-  box-shadow: 0px 8px 10px -5px #8d5252;
+  box-shadow: 0px 5px 5px 0px #000000;
   background-color: transparent;
   background-color: rgba(0, 0, 0, 0.131);
   border: 1px solid #a55c1b;
@@ -552,7 +567,7 @@ textarea {
 .footer-button {
   width: 100%;
   max-width: 180px;
-  box-shadow: 0px 8px 10px -5px #8d5252;
+  box-shadow: 0px 5px 5px 0px #000000;
   background-color: transparent;
   background-color: rgba(0, 0, 0, 0.131);
   border: 1px solid #a55c1b;
