@@ -4,10 +4,6 @@ html {
   -moz-background: #b0341f 0%;
   -webkit-background: #b0341f 0%;
   -o-background: #b0341f 0%;
-  /* background: #333 0%;
-    -moz-background: #333 0%;
-    -webkit-background: #333 0%;
-    -o-background: #333 0%; */
   background-image: url(/bgimages/new-bg-square3.svg);
   -moz-background-image: url(/bgimages/new-bg-square3.svg);
   -webkit-background-image: url(/bgimages/new-bg-square3.svg);
@@ -19,7 +15,6 @@ html {
 
 * {
   box-sizing: border-box;
-
   padding: 0;
   margin: 0;
   -webkit-touch-callout: none;
@@ -32,8 +27,6 @@ html {
 }
 
 body {
-  /* padding: 5px;
-  margin: 5px; */
   position: relative;
 }
 
@@ -65,16 +58,9 @@ body {
 }
 
 #topbar {
-  /* position: fixed;
-  top: 0; */
   width: 100%;
   height: 50px;
   background-color: rgba(1, 4, 12, 0.948);
-  /* min-height: 40px; */
-  /* background-color: rgba(158, 96, 35, 0.464); */
-  /* background-color: rgba(1, 16, 25, 0.902); */
-  /* background-color: rgba(1, 16, 25, 0.757); */
-  /* background-color: rgba(9, 50, 77, 0.757); */
 }
 
 li {
@@ -83,8 +69,6 @@ li {
 
 a {
   color: #cb4a0a;
-  /* color: #cd703d; */
-  /* color: #c25719; */
   text-decoration: none;
 }
 
@@ -95,18 +79,15 @@ a {
 
 .container {
   width: 1600px;
-  /* margin: auto; */
 }
 
 .subcontainer {
   width: 85%;
-  /* margin-left: 10px; */
   margin: auto;
 }
 
 .navbar {
   width: 100%;
-  /* min-height: 30px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -121,12 +102,10 @@ a {
 }
 
 .nav-branding {
-  /* font-size: 1.5rem; */
   font-family: fantasy;
 }
 
 .bullhead {
-  /* padding-top: 5px; */
   margin-top: 5px;
   width: 40px;
   height: 40px;
@@ -135,8 +114,6 @@ a {
 .hamburger {
   height: 40px;
   margin-bottom: 5px;
-  /* margin-top: 5px; */
-  /* padding-top: 5px; */
   display: none;
   cursor: pointer;
 }
@@ -147,14 +124,8 @@ a {
   height: 3px;
   margin: 5px 0px;
   transition: all 0.1s ease-in-out;
-  /* background-color: #c25719; */
   background-color: #cb4a0a;
-  /* background-color: #cd703d; */
 }
-
-/* #home {
-  margin-top: 70px;
-} */
 
 @media (max-width: 1600px) {
   .container {
@@ -187,11 +158,6 @@ a {
     gap: 0;
     flex-direction: column;
     background-color: rgba(1, 4, 12, 0.948);
-    /* background-color: rgba(158, 96, 35); */
-    /* background-color: rgba(1, 16, 25, 0.902); */
-    /* background-color: rgba(1, 16, 25, 0.757); */
-    /* background-color: rgba(9, 50, 77, 0.757); */
-    /* background-color: rgba(11, 6, 0, 0.884); */
     text-align: center;
     transition: all 0.1s ease-in-out;
   }
@@ -199,14 +165,7 @@ a {
   .nav-item {
     border: 10px solid rgba(60, 60, 60, 0);
     border-radius: 10px;
-    /* border: 3px solid rgba(65, 62, 62, 0.081); */
-    /* border: 2px solid rgba(201, 195, 195, 0.081); */
-    /* box-shadow: #b77656b6 0px 1px 1px 1px; */
     box-shadow: #a55c1b 0px 1px 1px 1px;
-
-    /* box-shadow: #776868ae 0px 5px 6px 0px; */
-    /* box-shadow: #070707 0px 3px 2px 0px; */
-
     margin: 6px 0;
     font-size: 0.8rem;
     font-weight: bolder;
@@ -216,7 +175,6 @@ a {
     left: 0;
     z-index: 1;
     /*z-index push content to the front*/
-    /* overflow: hidden; */
   }
 }
 
@@ -230,16 +188,14 @@ a {
 }
 
 /* (NOTE TO SELF)
-background propery fills every pixels of the device opposed to background color and image properties only cover the viewport aka the app screen real estate*/
+background property fills every pixels of the device opposed to background color and image properties only cover the viewport aka the app screen real estate*/
 
 .home-title {
-  /* border-top: #44400c solid 1px; */
   margin-top: 10px;
   color: #ffffff;
   font-size: 2rem;
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  /* margin-bottom: 40px; */
 }
 
 .home-links {
@@ -247,7 +203,6 @@ background propery fills every pixels of the device opposed to background color 
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 60px; */
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -283,7 +238,6 @@ h1 {
   text-align: left;
   font-size: 1.8rem;
   text-shadow: 0px 5px 5px 0px #000000;
-  /* text-shadow: 3px 3px 2px rgb(88, 78, 78); */
   color: rgb(243, 168, 6);
 }
 
@@ -297,9 +251,7 @@ h1 {
 .button {
   width: 120px;
   max-width: 120px;
-  /* box-shadow: 0px 8px 5px -5px #8d5252; */
   background-color: transparent;
-  /* background-color: rgba(255, 174, 0, 0.037); */
   background-color: rgba(0, 0, 0, 0.131);
   border: 1px solid #a55c1b;
   color: rgb(243, 168, 6);
@@ -328,7 +280,6 @@ h1 {
 .button-close {
   width: 100%;
   max-width: 50px;
-  /* box-shadow: 0px 8px 10px -5px #8d5252; */
   background-color: transparent;
   background-color: rgba(0, 0, 0, 0.131);
   border: 1px solid #a55c1b;
@@ -370,11 +321,8 @@ h1 {
 }
 
 iframe {
-  /* padding: 5px; */
-  /* padding: 0px 1px; */
   padding: 3px;
   margin: 5px;
-  /* margin: 0% auto; */
   max-width: 100%;
   border-top: 1px solid #b25106;
   border-bottom: 1px solid #b25106;
@@ -382,7 +330,6 @@ iframe {
   box-shadow: 0px 5px 5px 0px #000000;
   -moz-box-shadow: 0px 5px 5px 0px #000000;
   -webkit-box-shadow: 0px 5px 5px 0px #000000;
-  /* box-shadow: 0px 6px 11px -8px #8d5252; */
   justify-items: center;
   align-self: center;
   justify-content: center;
@@ -406,16 +353,9 @@ main {
   box-shadow: 0px 5px 5px 0px #000000;
   -moz-box-shadow: 0px 5px 5px 0px #000000;
   -webkit-box-shadow: 0px 5px 5px 0px #000000;
-  /* padding: 3px; */
-  /* box-shadow: 0px 8px 10px -5px #8d5252;
-  -moz-box-shadow: 0px 8px 10px -5px #8d5252;
-  -webkit-box-shadow: 0px 8px 10px -5px #8d5252; */
 }
 
 .img:hover {
-  /* background: linear-gradient(45deg, rgb(176, 74, 7), rgb(145, 126, 116));
-  color: #070707;
-  transform: scale(1.1); */
   transform: skew(-8deg, 8deg);
 }
 
@@ -430,17 +370,8 @@ img {
 .full-image {
   display: block;
   margin: 0px auto;
-  /* margin-left: auto;
-    margin-right: auto; */
   flex-basis: 500px;
-  /* padding: 20px; */
   margin-top: 15px;
-  /* border-radius: 20px;
-    border: 5px solid transparent; 
-    background: black border-box; */
-  /* background: linear-gradient(45deg,rgb(14, 133, 169),rgb(182, 37, 45)) border-box; */
-  /* background: linear-gradient(45deg,rgb(27, 102, 124),rgb(199, 141, 16)) border-box; */
-  /* background: linear-gradient(45deg,rgb(176, 74, 7),rgb(145, 126, 116)) border-box; */
 }
 
 .prev-next {
@@ -450,19 +381,16 @@ img {
 
 .paging-fade {
   color: rgb(243, 168, 6);
-  /* font-family: 'Great Vibes'; */
   text-align: center;
   font-size: 2.2rem;
-  /* text-shadow: 3px 3px 2px rgb(66, 48, 8); */
+  text-shadow: 0px 5px 5px 0px #000000;
 }
 
 .paging-sep {
   color: rgba(92, 99, 112, 0.5);
-  /* font-family: 'Great Vibes'; */
   text-align: center;
   font-size: 1.3rem;
-  /* text-shadow: 3px 3px 2px rgb(66, 48, 8); */
-  /* position: relative; */
+  text-shadow: 0px 5px 5px 0px #000000;
   bottom: -10px;
   margin-right: 3px;
   margin-left: 3px;
@@ -471,10 +399,9 @@ img {
 .prevnext-button {
   width: 100%;
   max-width: 180px;
-  /* font-family: 'Great Vibes'; */
   text-align: center;
   font-size: 1.5rem;
-  /* text-shadow: 3px 3px 2px rgb(88, 78, 78); */
+  text-shadow: 0px 5px 5px 0px #000000;
   color: red;
   text-decoration: none;
   padding-top: 10px;
@@ -483,19 +410,16 @@ img {
 .paging-style {
   width: 100%;
   max-width: 180px;
-  /* font-family: 'Great Vibes'; */
   text-align: center;
   font-size: 1.5rem;
-  /* text-shadow: 3px 3px 2px rgb(66, 48, 8); */
-  /* text-shadow: 3px 3px 2px rgb(88, 78, 78); */
+  text-shadow: 0px 5px 5px 0px #000000;
   color: red;
   text-decoration: none;
 }
 
 footer {
-  /* border-top: 1px solid rgb(255, 255, 255); */
   text-align: center;
-  /* text-shadow: 3px 3px 2px rgb(88, 78, 78); */
+  text-shadow: 0px 5px 5px 0px #000000;
   color: rgb(243, 168, 6);
   font-size: 0.75rem;
 }
@@ -503,8 +427,6 @@ footer {
 .flex-footer {
   display: flex;
   justify-content: center;
-  /* margin-top: -20px;
-  margin-left: -50px; */
 }
 
 .message-box {
@@ -517,7 +439,7 @@ footer {
 h2 {
   text-align: center;
   font-size: 1.5rem;
-  /* text-shadow: 3px 3px 2px rgb(88, 78, 78); */
+  text-shadow: 0px 5px 5px 0px #000000;
   color: rgb(243, 168, 6);
 }
 
@@ -574,8 +496,6 @@ textarea {
   border: 1px solid #a55c1b;
   color: rgb(243, 168, 6);
   padding: 5px 10px;
-  /* margin: 5px; */
-
   margin: auto;
   text-align: center;
   font-size: 0.75rem;
@@ -584,7 +504,6 @@ textarea {
   transition: all 300ms ease;
   -webkit-transition: all 300ms ease;
   -o-transition: all 300ms ease;
-  /* font-family: 'Great Vibes'; */
 }
 
 .footer-button:hover {
