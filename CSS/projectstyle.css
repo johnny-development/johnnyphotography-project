@@ -260,8 +260,8 @@ h1 {
 }
 
 .button:hover {
-  background: rgb(202, 160, 68);
-  color: #070707;
+  /* background: rgb(202, 160, 68);
+  color: #070707; */
   transform: translateY(4px);
   border: 1px solid #070707;
 }
@@ -294,8 +294,8 @@ h1 {
 }
 
 .button-close:hover {
-  background: rgb(202, 160, 68);
-  color: #070707;
+  /* background: rgb(202, 160, 68);
+  color: #070707; */
   transform: translateY(4px);
   border: 1px solid #070707;
 }
