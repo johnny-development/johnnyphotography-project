@@ -262,8 +262,12 @@ h1 {
 .button:hover {
   background: rgb(202, 160, 68);
   color: #070707;
-  transform: skew(-20deg);
+  transform: translateY(4px);
   border: 1px solid #070707;
+}
+
+.button:active {
+  transform: translateY(4px);
 }
 
 .button-close {
@@ -292,8 +296,12 @@ h1 {
 .button-close:hover {
   background: rgb(202, 160, 68);
   color: #070707;
-  transform: skew(-20deg);
+  transform: translateY(4px);
   border: 1px solid #070707;
+}
+
+.button-close:active {
+  transform: translateY(4px);
 }
 
 .goback {
@@ -508,6 +516,6 @@ textarea {
 .footer-button:hover {
   background: rgb(202, 160, 68);
   color: #070707;
-  transform: skew(-20deg);
+  transform: translateY(4px);
   border: 1px solid #070707;
 }
