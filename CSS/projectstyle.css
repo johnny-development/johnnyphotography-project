@@ -222,13 +222,6 @@ background property fills every pixels of the device opposed to background color
   margin-bottom: -15px;
 }
 
-.goback {
-  display: flex;
-  justify-content: center;
-  margin-top: -5px;
-  margin-bottom: -10px;
-}
-
 h1 {
   font-family: "Great Vibes";
   text-align: left;
@@ -303,6 +296,13 @@ h1 {
   border: 1px solid #070707;
 }
 
+.goback {
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+  margin-bottom: -10px;
+}
+
 .go-back {
   display: flex;
   justify-content: center;
@@ -361,10 +361,10 @@ img {
 
 .flex {
   display: flex;
+  justify-content: center;
 }
 
 .full-image {
-  display: block;
   margin: 0px 1px;
   flex-basis: 500px;
   margin-top: 15px;
