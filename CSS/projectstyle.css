@@ -263,7 +263,7 @@ h1 {
   /* background: rgb(202, 160, 68);
   color: #070707; */
   transform: translateY(4px);
-  border: 1px solid #070707;
+  /* border: 1px solid #070707; */
 }
 
 .button:active {
@@ -297,7 +297,7 @@ h1 {
   /* background: rgb(202, 160, 68);
   color: #070707; */
   transform: translateY(4px);
-  border: 1px solid #070707;
+  /* border: 1px solid #070707; */
 }
 
 .button-close:active {
