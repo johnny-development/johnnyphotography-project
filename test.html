@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      body {
+        opacity: 1;
+        transition-duration: 0.7s;
+        transition-property: opacity;
+      }
+
+      body.fade {
+        opacity: 0;
+      }
+    </style>
+
+    <script>
+      document.body.className = "fade";
+      document.body.classList.add("fade");
+      document.addEventListener("DOMContentLoaded", () => {
+        window.setTimeout(function () {
+          document.body.className = "";
+        }, 230);
+      });
+      document.addEventListener("DOMContentLoaded", () => {
+        window.setTimeout(function () {
+          document.body.classList.remove("fade");
+        }, 230);
+      });
+    </script>
+  </body>
+</html>

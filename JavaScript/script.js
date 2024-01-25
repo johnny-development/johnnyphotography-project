@@ -42,7 +42,31 @@ document.onscroll = function (e) {
 
 // preloader Script
 
-var loader = document.getElementById("preloader");
-window.addEventListener("load", function () {
-  setTimeout(() => (loader.style.display = "none"), 2000);
-});
+// var loader = document.getElementById("preloader");
+// window.addEventListener("load", function () {
+//   setTimeout(() => (loader.style.display = "none"), 1000);
+// });
+
+//popup script
+
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
+// preloader 1 script
+
+const preloader = document.querySelector(".preloader");
+const fadeEffect = setInterval(() => {
+  // if we don't set opacity 1 in CSS, then   //it will be equaled to "", that's why we   // check it
+  if (!preloader.style.opacity) {
+    preloader.style.opacity = 1;
+  }
+  if (preloader.style.opacity > 0) {
+    preloader.style.opacity -= 0.1;
+  } else {
+    clearInterval(fadeEffect);
+  }
+}, 300);
+
+window.addEventListener("load", fadeEffect);

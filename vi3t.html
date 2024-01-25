@@ -18,6 +18,7 @@
   </head>
   <link rel="apple-touch-icon" href="Favicon/FMLapple-touch-icon.png"/>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+  <link rel="stylesheet" type="text/css" href="/code.jquery.com_mobile_1.4.2_jquery.mobile-1.4.2.min.css">
 </head>
 <body>
   <div id="preloader">
@@ -26,24 +27,26 @@
   <div class="container">
     <div class="subcontainer">
       <nav class="navbar">
-      <a href="https://johnnyphotography.netlify.app/" class="nav-branding"> <img class="bullhead" src="/Favicon/FMLapple-touch-icon.png"alt=""></a>
-      <ul class="nav-menu">
-        <li class="nav-item"> 
-          <a href="https://johnnyle.netlify.app" class="nav-link"><span class="home fa fa-home"></span></a>
-        </li>
-    <li class="nav-item"> 
-      <a href="https://www.instagram.com/johnny.aio" class="nav-link" target="_blank" ><span class="fab fa-instagram"></span> johnny.aio</a>
-    </li>
+        <a class="nav-branding"onclick=myFunction() href="#"><span class="johnny">johnny</span><img class="bullhead" src="/Favicon/FMLapple-touch-icon.png"alt=""></a>
+        <ul class="nav-menu">
 
-    <li class="nav-item"><a href="https://phimbo.netlify.app/" class="nav-link"> <span class="icon youtube fab fa-youtube"></span>
-      phimbo.netlify.app</a>
-    </li>
-    
-    <li class="nav-item">
-      <a href="https://johnnynews.netlify.app/" class="nav-link"><span class="fas fa-globe"></span> johnnynews.netlify.app</a>
-      
-    </li>
-      </ul>
+          <li class="nav-item"> 
+            <a href="https://johnnyle.netlify.app" class="nav-link"><span class="home fa fa-home"></span></a>
+          </li>
+
+          <li class="nav-item">
+            <a href="https://johnnynews.netlify.app/" class="nav-link"><span class="fas fa-globe"></span> News</a>
+          </li>
+
+          <li class="nav-item"><a href="https://phimbo.netlify.app/" class="nav-link"> <span class="icon youtube fab fa-youtube"></span>
+            PhimBộ</a>
+          </li>
+
+          <li class="nav-item"> 
+            <a href="https://www.instagram.com/johnny.aio" class="nav-link" target="_blank" ><span class="fab fa-instagram"></span> johnny.aio</a>
+          </li>
+
+        </ul>
       <div class="hamburger">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -57,16 +60,11 @@
   </div>
 </div>
 <header>
+  <div class="astrodivider"><div class="astrodividermask"></div><span></span></div>
 <h1 class="toptitle">
   Việt &#127911;
 </h1>
-    <a class="goback" href="index.html">
-      <button
-        class="button"
-      >
-        &Ll; Go Back
-      </button></a
-    >
+<button style="margin: 0 auto;" onclick="location.href='https://johnnyphotography.netlify.app/index'" class="button goback">&Ll; Go Back</button>
 </header>
     <br />
     <div class="video-flex">
@@ -107,17 +105,6 @@
         width="450"
         height="245"
         src="https://www.youtube.com/embed/h0acokatZHE"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      >
-      </iframe>
-
-      <iframe
-        width="450"
-        height="245"
-        src="https://www.youtube.com/embed/VNiGbm_iuzY"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -184,7 +171,7 @@
     <footer>
       <navbar class="prev-next">
         <ul>
-          <span class="paging-fade">1</span>
+          <span class="paging-fade">&#10102;</span>
           <span class="paging-sep">&VerticalSeparator;</span>
           <a class="paging-style" href="viet2.html">2</a
           ><span class="paging-sep">&VerticalSeparator;</span>

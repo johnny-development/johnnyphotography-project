@@ -16,31 +16,106 @@
     <link rel="shortcut icon" type="image/x-icon" href="Favicon/FMLfavicon.ico"/>
     <link rel="apple-touch-icon" href="Favicon/FMLapple-touch-icon.png"/>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
   </head>
+    <link rel="stylesheet" type="text/css" href="/code.jquery.com_mobile_1.4.2_jquery.mobile-1.4.2.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <body>
-    <div id="preloader">
+    <div onclick=myFunction() href="#" class="preloader">
+        <svg
+          width="100"
+          height="100"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="xMidYMid"
+          class="lds-ripple"
+          style="background: 0 0"
+          
+        >
+          <circle
+            cx="50"
+            cy="50"
+            r="4.719"
+            fill="none"
+            stroke="#1d3f72"
+            stroke-width="2"
+          >
+            <animate
+              attributeName="r"
+              calcMode="spline"
+              values="0;40"
+              keyTimes="0;1"
+              dur="3"
+              keySplines="0 0.2 0.8 1"
+              begin="-1.5s"
+              repeatCount="indefinite"
+            />
+            <animate
+              attributeName="opacity"
+              calcMode="spline"
+              values="1;0"
+              keyTimes="0;1"
+              dur="3"
+              keySplines="0.2 0 0.8 1"
+              begin="-1.5s"
+              repeatCount="indefinite"
+            />
+          </circle>
+          <circle
+            cx="50"
+            cy="50"
+            r="27.591"
+            fill="none"
+            stroke="#5699d2"
+            stroke-width="2"
+          >
+            <animate
+              attributeName="r"
+              calcMode="spline"
+              values="0;40"
+              keyTimes="0;1"
+              dur="3"
+              keySplines="0 0.2 0.8 1"
+              begin="0s"
+              repeatCount="indefinite"
+            />
+            <animate
+              attributeName="opacity"
+              calcMode="spline"
+              values="1;0"
+              keyTimes="0;1"
+              dur="3"
+              keySplines="0.2 0 0.8 1"
+              begin="0s"
+              repeatCount="indefinite"
+            />
+          </circle>
+        </svg>
     </div>
     <div id="topbar">
     <div class="container">
       <div class="subcontainer">
         <nav class="navbar">
-        <a href="https://johnnyphotography.netlify.app/" class="nav-branding"> <img class="bullhead" src="/Favicon/FMLapple-touch-icon.png"alt=""></a>
-        <ul class="nav-menu">
-            <li class="nav-item"> 
+            <a class="nav-branding"onclick=myFunction() href="#"><span class="johnny">johnny</span><img class="bullhead" src="/Favicon/FMLapple-touch-icon.png"alt=""></a>
+            <ul class="nav-menu">
+    
+              <li class="nav-item"> 
                 <a href="https://johnnyle.netlify.app" class="nav-link"><span class="home fa fa-home"></span></a>
               </li>
-          <li class="nav-item"> 
-            <a href="https://www.instagram.com/johnny.aio" class="nav-link" target="_blank" ><span class="fab fa-instagram"></span> johnny.aio</a>
-          </li>
     
-          <li class="nav-item"><a href="https://phimbo.netlify.app/" class="nav-link"> <span class="icon youtube fab fa-youtube"></span>
-            phimbo.netlify.app</a>
-          </li>
-          
-          <li class="nav-item">
-            <a href="https://johnnynews.netlify.app/" class="nav-link"><span class="fas fa-globe"></span> johnnynews.netlify.app</a>
-          </li>
-        </ul>
+              <li class="nav-item">
+                <a href="https://johnnynews.netlify.app/" class="nav-link"><span class="fas fa-globe"></span> News</a>
+              </li>
+    
+              <li class="nav-item"><a href="https://phimbo.netlify.app/" class="nav-link"> <span class="icon youtube fab fa-youtube"></span>
+                PhimBộ</a>
+              </li>
+    
+              <li class="nav-item"> 
+                <a href="https://www.instagram.com/johnny.aio" class="nav-link" target="_blank" ><span class="fab fa-instagram"></span> johnny.aio</a>
+              </li>
+    
+            </ul>
         <div class="hamburger">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -55,17 +130,18 @@
   </div>
 
     <header>
-        <h1 class="animate__animated animate__backInDown animate__delay-0s toptitle">&nbsp;Johnny&nbsp; 
+        <div class="astrodivider"><div class="astrodividermask"></div><span></span></div>
+        <h1 class="toptitle">&nbsp;Johnny&nbsp; 
             <br>
             &nbsp;Photography
         </h1>
-    <navbar class="animate__animated animate__backInDown animate__delay-0s toplist">
-        <ul>
+    <navbar class="toplist">
+        <ul class="toplist">
         <a href="vibez.html"> <button class="button">&#x1F49B; &#127911;</button></a>
         <a href="lofi.html"> <button class="button">&#128522 &#127911;</button></a>
         <a href="party.html"> <button class="button">&#128526 &#127911;</button></a>
         <a href="vi3t.html"> <button class="button">Việt &#127911;</button></a>
-        <a href="sleep.html"> <button class="button">放松 &#127911;</button></a>  
+        <a href="sleep.html"> <button class="button">中国 &#127911;</button></a>  
         <a href="work.html"> <button class="button">日本 &#127911;</button></a>
         <!-- <a href="audiobooks.html"> <button class="button">Books &#127911;</button></a> -->
         </ul>
@@ -75,35 +151,41 @@
     <br>
     <main>
         <div class="img">
-            <a target="_blank" href="bluejayschamps.html">
-                    <img src="Media/bluejayschampspreview.jpg" alt="bluejayschamps" width="100%" height="100%"> 
-                </a> <!--44-->
+            <a target="_blank" href="pcupgrade6.html">
+                    <img src="Media/chairpreview.jpg" alt="" width="100%" height="100%"> 
+                </a> <!--48-->
             </div>
+            <div class="popup">
+                <span class="popuptext" id="myPopup">So in the end, was it worth it? Jesus Christ. How irreparably changed my life has become. It's always the last day of summer and I've been left out in the cold with no door to get back in. I'll grant you I've had more than my share of poignant moments. Life passes most people by while they're making grand plans for it. Throughout my lifetime, I've left pieces of my heart here and there. And now, there's almost not enough to stay alive. But I force a smile, knowing that my ambition far exceeded my talent. There are no more white horses or pretty ladies at my door. ~Boston George</span>
+              </div>
         <div class="img">
-            <a target="_blank" href="bluejaysglove.html">
-                    <img src="Media/bluejaysglovepreview.jpg" alt="bluejaysglove" width="100%" height="100%"> 
-                </a> <!--43-->
+            <a target="_blank" href="pcupgrade5.html">
+                    <img src="Media/finalpreview.jpg" alt="" width="100%" height="100%"> 
+                </a> 
             </div>
+
+            
         <div class="img">
-            <a target="_blank" href="bluejayshat.html">
-                    <img src="Media/bluejayshatpreview.jpg" alt="bluejayshat" width="100%" height="100%"> 
-                </a> <!--42-->
+            <a target="_blank" href="pcupgrade4.html">
+                    <img src="Media/thermalpastepreview.jpg" alt="" width="100%" height="100%"> 
+                </a> 
             </div>
-        <div class="img">
-            <a target="_blank" href="bluejays.html">
-                    <img src="Media/bluejayspreview.jpg" alt="bluejays" width="100%" height="100%"> 
-                </a> <!--41-->
-            </div>
-        <div class="img">
-            <a target="_blank" href="glassjungle.html">
-                    <img src="Media/glassjunglepreview.jpg" alt="glassjungle" width="100%" height="100%"> 
-                </a> <!--40-->
-            </div>
-        <div class="img">
-            <a target="_blank" href="thewatcher.html">
-                    <img src="Media/thewatcherpreview.jpg" alt="thewatcher" width="100%" height="100%"> 
-                </a> <!--39-->
-            </div>
+
+            <div class="img">
+                <a target="_blank" href="pcupgrade3.html">
+                        <img src="Media/installedssdpreview.jpg" alt="" width="100%" height="100%"> 
+                    </a> 
+                </div>
+                <div class="img">
+                    <a target="_blank" href="pcupgrade2.html">
+                            <img src="Media/coolerpreview.jpg" alt="" width="100%" height="100%"> 
+                        </a> 
+                    </div>
+                    <div class="img">
+                        <a target="_blank" href="pcupgrade.html">
+                                <img src="Media/beforepreview.jpg" alt="" width="100%" height="100%"> 
+                            </a> 
+                        </div>
         <div class="img">
             <a target="_blank" href="sector7.html">
                     <img src="Media/sector7preview.jpg" alt="sector7" width="100%" height="100%"> 
@@ -170,23 +252,20 @@
     </main>
     <navbar class="prev-next">
         <ul>
-            <span class="paging-fade">1</span> <span class="paging-sep">&VerticalSeparator;</span>
+            <span class="paging-fade">&#10102;</span> <span class="paging-sep">&VerticalSeparator;</span>
             <a class="paging-style" href="page2.html">2</a><span class="paging-sep">&VerticalSeparator;</span>
             <a class="paging-style" href="page3.html">3</a>&nbsp;&nbsp;&nbsp;
             <a class="prevnext-button" href="page2.html">&rAarr;</a>
         </ul>
     </navbar>
- 
+    <div class="astrodivider"><div class="astrodividermask"></div><span></span></div>
     <footer>
-        
         <navbar class="flex-footer">
             <ul>
-            <a href="contact.html"> <button class="footer-button">Created by: Johnny</button></a>
+            <a href="https://johnnyle.netlify.app"> <button class="footer-button">
+                JvL Development&trade; &#9881;</button></a>
         </ul>
         </navbar>
-    
     </footer>
-
-
 </body>
 </html>
